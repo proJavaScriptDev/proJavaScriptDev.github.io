@@ -1,0 +1,83 @@
+div#calculator{
+	height: 455px;
+	width: 600px;
+	border: 1px solid lightgray;
+	margin: 30px auto;
+	font-family: cursive;
+}
+
+div#calculator h2{
+	text-align: center;
+	margin: 5px;
+	color: dodgerblue;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+div#calculator h2:hover{
+	color: rgb(2, 89, 175);
+}
+
+
+
+div#calculator p{
+	text-align: center;
+}
+
+div#calculator input{
+	font-size: 24px;
+	width: 550px;
+	outline: none;
+	display: block;
+	border: none;
+	margin: 20px auto;
+}
+
+div#calculator input:hover{
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+div#btns-section{
+	height: 300px;
+	width: 300px;
+	margin: 10px auto;
+}
+
+.btn{
+	height: 40px;
+	width: 40px;
+	padding: 5px;
+	outline: none;
+	background-color: white;
+	font-size: 18px;
+	border: 1px solid rgb(190, 190, 190);
+	cursor: pointer;
+	margin: 10px;
+}
+
+.btn:hover{
+	background-color: dodgerblue;
+	color: white;
+}
+
+div#description{
+	height: 200px;
+	width: 400px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	margin: 25px auto;
+	text-align: center justify;
+	font-family: cursive;
+}
+
+div#description a{
+	color: dodgerblue; 
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+div#description a:hover{
+	color: rgb(2, 89, 175);
+	text-decoration: underline;
+}

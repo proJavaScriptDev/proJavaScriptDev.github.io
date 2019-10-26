@@ -1,0 +1,33 @@
+body{
+	background-color: rgb(255, 38, 0);
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+ol{
+	list-style-type: none;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+}
+
+.pokemon{
+	height: 300px;
+	width: 250px;
+	text-transform: capitalize;
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+	margin: 30px;
+	text-align: center;
+	transition: 0.3s;
+}
+.pokemon:hover{
+	transform: translateY(-25px);
+	cursor: pointer;
+}

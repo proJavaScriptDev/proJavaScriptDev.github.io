@@ -1,0 +1,126 @@
+/* Styling header */
+
+
+
+h1{
+	color: dodgerblue;
+	font-family: "harlow solid";
+	font-size: 45px;
+	text-align:  center;
+}
+
+
+
+
+/* Styling container */
+
+
+
+div#container{
+	height: 340px;
+	width: 650px;
+	border: 1px solid rgb(104, 103, 103);
+	margin: 20px auto;
+	background-color: black;
+}
+
+
+
+
+/* Styling input */
+
+
+
+input[type="text"] {
+	font-size: 24px;
+	width: 300px;
+	display: inline-block;
+	outline: none;
+	font-family: cursive;
+	border: none;
+	margin: 10px 15px;
+	transition: 0.4s;
+}
+
+
+input[type="text"]:hover {
+	background-color: teal;
+	color: white;
+}
+
+
+
+
+/* Styling submit button */
+
+
+
+button#submit{
+	background-color: dodgerblue;
+	color: white;
+	font-size: 20px;
+	display: block;
+	outline: none;
+	margin: 5px 15px;
+	padding: 10px;
+	border: none;
+}
+
+
+
+
+/* Styling p tag */
+
+
+
+
+p{
+	color: white;
+	font-size: 24px;
+	margin: 10px 15px;
+	font-family: cursive;
+}
+
+
+p#lives{
+	display: inline-block;
+	font-size: 20px !important;
+}
+
+/* Styling the cover and the box and its child elements */
+
+div#cover{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+div#box{
+	display: block;
+	height: 250px;
+	width: 500px;
+	font-family: cursive;
+	position: absolute; 
+	z-index: 100;
+	left: 20%;
+	top: 25%;
+	background-color: rgb(241, 233, 233);
+}
+
+div#box > h1{
+	text-align: center;
+	color: teal;
+}
+
+button#Tryagain{
+	background-color: teal;
+	padding: 10px;
+	display: block;
+	margin: 10px auto;
+	border: none;
+	font-size: 24px;
+	color: white;
+}
